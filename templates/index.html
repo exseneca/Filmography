@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<form action="/list" method="post" id="form1">
+    <input type="text" name="string" placeholder="Type name"/>
+</form>
+<button type="submit" form="form1" value="Go">Go</button>
+
+{% endblock %}

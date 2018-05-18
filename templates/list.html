@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<h2> {{ actor }}</h2>
+<ul>
+{% for film in films %}
+    <li>{{ film }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
