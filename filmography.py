@@ -4,7 +4,7 @@ import requests
 
 class Filmography:
         def __init__(self):
-            self.KEY = "3434344b1858e5b1112022a9a29312d6"
+            self.KEY = "#"
 
         def get_id(self, name):
             """Use api to retrieve id"""
@@ -50,4 +50,4 @@ try:
 except IndexError:
     print("INVALID NAME")
 
-#https://api.themoviedb.org/3/search/person?query="bee fhsohu"&api_key=3434344b1858e5b1112022a9a29312d6
+
